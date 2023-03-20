@@ -15,7 +15,6 @@ dependencies:
   - pymc3
   - arviz
   - python-graphviz
-  - mkl-service
   - lxml
   - xlrd
   - html5lib
@@ -30,3 +29,5 @@ dependencies:
   - jupyter-book
   - ghp-import
   - empiricaldist>=0.6.7
+pip:
+  - mkl-service

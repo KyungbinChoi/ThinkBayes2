@@ -15,13 +15,12 @@ dependencies:
   - pymc3
   - arviz
   - python-graphviz
-  - mkl-service
   - lxml
   - xlrd
   - html5lib
   - pytables
   - nbconvert
-  - pandoc<2.3
+  - pandoc
   - fastai::fastdoc
   - pip
   - jupyter_nbextensions_configurator
@@ -30,3 +29,6 @@ dependencies:
   - jupyter-book
   - ghp-import
   - empiricaldist>=0.6.7
+  - pip
+  - pip:
+    - mkl-service
